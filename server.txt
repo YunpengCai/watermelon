@@ -1,0 +1,19 @@
+infos on https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw
+1. install Node.Js AND npm
+http://nodejs.cn/download/，下载 Node.js，会自动安装 npm。
+in cmd, npm -v check version number
+
+2. install server tool
+npm i -g serve
+
+3. start service
+in master folder, 
+enter 'serve'
+if success:    in browser visit: localhost:5000
+
+4. online access
+npm install -g vercel
+
+index.html 所在目录
+cd daxigua
+vercel --prod
